@@ -1,0 +1,225 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+    <link rel="stylesheet" href="styles.css" />
+    <script
+      src="https://kit.fontawesome.com/d7fc407f25.js"
+      crossorigin="anonymous"
+    ></script>
+  </head>
+  <body>
+    <header>
+      <nav id="navbar">
+        <div class="logo">Jose <span>Ignacio</span></div>
+        <ul class="nav-links">
+          <li><a href="#inicio">inicio</a></li>
+          <li><a href="#experiencia">experiencia</a></li>
+          <li><a href="#proyectos">proyectos</a></li>
+        </ul>
+      </nav>
+    </header>
+    <main>
+      <section id="inicio" class="hero">
+        <div class="hero-content">
+          <div class="hero-text">
+            <h1>Jose Ignacio Aguilera Garrido</h1>
+            <h2>Desarrollador Web Junior</h2>
+            <p>
+              Desarrollador web junior especializado en HTML, Java, JavaScript, CSS,  y Laravel, con experiencia en despliegue con Docker y gestión
+              de servidores Linux. Enfocado en crear aplicaciones funcionales y escalables, con interés en seguir creciendo en frontend/backend
+            </p>
+            <div class="social-links">
+              <a href="https://github.com/aguiluxo00" target="_blank"><i class="fab fa-github"></i></a>
+              <a href="https://www.linkedin.com/in/jose-ignacio-aguilera-garrido-7590151ba/" target="_blank"><i class="fab fa-linkedin"></i></a>
+            </div>
+            <div class="contact-row">
+            <div class="correo-box">
+              <i class="fa-solid fa-envelope gmail-icon"></i>
+              <span id="correo">penachobm15@gmail.com</span>
+              <button onclick="copiarCorreo()">Copiar</button>
+              </div>
+              <div class="correo-box">
+                <a href="https://cvdesignr.com/p/5e510cfa97bfc" target="_blank" download class="cv-box">
+                <i class="fa-solid fa-file-arrow-down cv-icon"></i>
+                <span>Descargar CV</span>
+              </a>
+              </div>
+            </div>
+
+            <div id="toast" class="toast">¡Correo copiado!</div>
+          </div>
+          <div class="hero-image">
+            <img src="profile.jpeg" alt="profile image" />
+          </div>
+        </div>
+      </section>
+      <section id="experiencia" class="experiencia">
+        <h2 class="section-title">Stack Tecnologico</h2>
+        
+        <div class="timeline-item">
+          <div class="timeline-content">
+            <h3 class="section-title">Lenguajes</h3>
+            <div class="Stack">
+            <img src="html-5.png" alt="profile image" />
+            <img src="css-3.png" alt="profile image" />
+            <img src="java.png" alt="profile image" />
+            <img src="js.png" alt="profile image" />
+            <img src="sql.png" alt="profile image" />
+            <img src="php.png" alt="profile image" />
+            <img src="react.svg" alt="profile image" />
+            </div>
+            <br>
+            <h3 class="section-title">Herramientas</h3>
+            <div class="Stack">
+              <img src="docker.svg" alt="profile image" />
+              <img src="github.png" alt="profile image" />
+            </div>
+          </div>
+        </div>
+      </section>
+      <section id="experiencia" class="experiencia">
+        <h2 class="section-title">Experiencia Laboral</h2>
+        
+        <div class="timeline-item">
+          <div class="timeline-content">
+            <span class="date">25-03-2025 - Actualidad</span>
+            <h3>Desarrollador Full Stack</h3>
+            <h4>Freelance</h4>
+            <p>
+              Creacion y mantenimiento de distintas paginas web tanto a codigo
+              como wordpress y shopify
+            </p>
+            <ul class="skills">
+              <li>html</li>
+              <li>Css</li>
+              <li>JavaScript</li>
+              <li>java</li>
+            </ul>
+          </div>
+        </div>
+        <div class="timeline-item">
+          <div class="timeline-content">
+            <span class="date">14-03-2025 - 15-06-2025</span>
+            <h3>Desarrollador Full Stack</h3>
+            <h4>aibesoft</h4>
+            <p>
+              Creacion completa del sofware que iban a usar para la empresa de
+              callcenter
+            </p>
+            <ul class="skills">
+              <li>html</li>
+              <li>Css</li>
+              <li>JavaScript</li>
+              <li>java</li>
+              <li>Boostrap</li>
+            </ul>
+          </div>
+        </div>
+      </section>
+      
+      <section id="proyectos" class="projects">
+      <h2 class="section-title">Proyectos personales</h2>
+      <div class="projects-container">
+        <div class="project-card">
+          <div class="project-img">
+            <img src="proyecto-1.png" alt="proyecto 1" />
+          </div>
+          <div class="project-info">
+            <h3>Gestor de cursos</h3>
+            <p> Aplicacion diseñada para llevar la gestion de una consultora española dedicada al control de la ausencia del 
+              personal trabajador, el rendimineto y la inscripcion de nuevos alumnos</p>
+            <div class="project-tech">
+              <span>html</span>
+              <span>Css</span>
+              <span>JavaScript</span>
+              <span>java</span>
+              <span>Boostrap</span>
+            </div>
+            <div class="project-links">
+                <a href="https://github.com/aguiluxo00/gestor-inscripcion/tree/main/gestor-inscripcion" target="_blank"><i class="fab fa-github"></i>Repositorio</a>
+            </div>
+          </div>
+          </div>
+          <div class="project-card">
+          <div class="project-img">
+            <img src="proyecto-2.png" alt="proyecto 1" />
+          </div>
+          <div class="project-info">
+            <h3>App para club deportivo</h3>
+            <p> Aplicacion para el conocimineto, la promocion y la difucion de un club deportivo y su plantilla de jugadores</p>
+            <div class="project-tech">
+              <span>html</span>
+              <span>Css</span>
+              <span>JavaScript</span>
+              <span>java</span>
+              <span>Boostrap</span>
+            </div>
+            <div class="project-links">
+                <a href="https://github.com/aguiluxo00/bmtortal" target="_blank"><i class="fab fa-github"></i>Repositorio</a>
+            </div>
+          </div>
+          </div>
+           <div class="project-card">
+          <div class="project-img">
+            <img src="activa52.png" alt="proyecto 1" />
+          </div>
+          <div class="project-info">
+            <h3>App imprenta</h3>
+            <p> Web funcional de una imprenta en wordpress</p>
+            <div class="project-tech">
+              <span>Wordpress</span>
+              <span>Elementor</span>
+
+            </div>
+            <div class="project-links">
+                <a href="https://activa52.com/" target="_blank"><i class="fab fa-github"></i>WEB</a>
+            </div>
+          </div>
+          </div>
+
+          <div class="project-card">
+          <div class="project-img">
+            <img src="coming.png" alt="proyecto 1" />
+          </div>
+          <div class="project-info">
+            <h3></h3>
+            <p> </p>
+            <div class="project-tech">
+
+            </div>
+            <div class="project-links">
+                <a href="" target="_blank"><i class="fab fa-github"></i></a>
+            </div>
+          </div>
+          </div>
+      </section>
+    </main>
+    <footer>
+        <div class="footer-content">
+            <p>&copy; 2025 Jose Ignacio Aguilera</p>
+            <div class="social-links">
+              <a href="https://github.com/aguiluxo00" target="_blank"><i class="fab fa-github"></i></a>
+              <a href="https://www.linkedin.com/in/jose-ignacio-aguilera-garrido-7590151ba/" target="_blank"><i class="fab fa-linkedin"></i></a>
+            </div>
+        </div>
+    </footer>
+  </body>
+</html>
+<script>
+function copiarCorreo() {
+  const correo = document.getElementById("correo").textContent;
+  const toast = document.getElementById("toast");
+
+  navigator.clipboard.writeText(correo)
+    .then(() => {
+      toast.classList.add("show");
+
+      setTimeout(() => {
+        toast.classList.remove("show");
+      }, 2000);
+    });
+}
+</script>
