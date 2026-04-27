@@ -164,12 +164,13 @@ section {
   justify-content: center;
   align-items: center;
   gap: 15px;
-  flex-wrap: nowrap;
+  flex-wrap: wrap;
 }
 
 .Stack img {
-  width: 60px;
-  height: 60px;
+  width: clamp(40px, 8vw, 60px);
+  height: auto;
+  max-width: 100%;
   object-fit: contain;
   transition: transform 0.3s ease;
 }
@@ -463,6 +464,7 @@ footer {
     flex-direction: column;
   }
 }
+
 .toast {
   position: fixed;
   top: 50%;
